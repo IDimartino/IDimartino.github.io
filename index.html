@@ -51,7 +51,7 @@
     position: relative;
   }
 
-  .page + .page { margin-top: 20px; }
+  .page + .page { margin-top: 0px; }
 
   /* ===== SIDEBAR ===== */
   .sidebar {
@@ -515,16 +515,16 @@
   /* Page 2 sidebar */
   .sidebar-page2 {
     background: var(--sidebar);
-    padding: 20px 15px 20px 15px;
+    padding: 12px 15px 20px 15px;
     display: flex;
     flex-direction: column;
   }
 
   .sidebar-p2-continuation {
     text-align: center;
-    padding-bottom: 12px;
+    padding-bottom: 8px;
     border-bottom: 1px solid rgba(255,255,255,0.06);
-    margin-bottom: 14px;
+    margin-bottom: 10px;
   }
 
   .sidebar-p2-name { font-size: 12px; font-weight: 700; color: var(--sidebar-heading); }
@@ -656,7 +656,7 @@
     <div class="main-header">
       <div class="main-title">Professional Summary</div>
       <div class="main-subtitle">12+ Years · Freelance Consultant · Full Remote</div>
-      <p class="summary-text"><strong>AI-native</strong> Senior Android Engineer with <strong>12+ years</strong> shipping high-quality mobile apps across <strong>fintech, e-commerce, navigation, and education</strong>. Expert in <strong>Kotlin</strong>, <strong>Jetpack Compose</strong>, and <strong>KMP</strong> for cross-platform development, with deep <strong>system design</strong> skills. Integrates <strong>AI tools</strong> (Cursor, GitHub Copilot, Claude API) daily for rapid prototyping and faster delivery — using AI as a genuine competitive edge. Architected the <strong>Kard</strong> fintech app (<strong>100K+ downloads</strong>). Collaborated with leading AI labs (<strong>Alignerr, Outlier, Opentrain.ai</strong>) on LLM evaluation and code quality.</p>
+      <p class="summary-text"><strong>AI-native</strong> Senior Android Engineer with <strong>12+ years</strong> shipping high-quality mobile apps across <strong>fintech, e-commerce, navigation, and education</strong>. Expert in <strong>Kotlin</strong>, <strong>Jetpack Compose</strong>, and <strong>KMP</strong> for cross-platform development, with deep <strong>system design</strong> skills. Integrates <strong>AI tools</strong> (Cursor, GitHub Copilot, Claude API) daily for rapid prototyping and faster delivery — using AI as a genuine competitive edge. Architected the <strong>Kard</strong> fintech app (<strong>100K+ downloads</strong>). Collaborated with leading AI labs (<strong>Alignerr, Outlier, Opentrain.ai, Mercor</strong>) on LLM evaluation and code quality.</p>
       <div class="highlight-chips">
         <span class="highlight-chip"><span class="chip-icon">🏆</span> 100K+ Downloads</span>
         <span class="highlight-chip"><span class="chip-icon">🏗️</span> System Design</span>
@@ -674,7 +674,7 @@
         <div class="strength-item"><div class="strength-icon">🏗️</div><span>Proven track record <strong>architecting apps from scratch</strong>, including Kard (<strong>100K+ downloads, 4.5★</strong>) and multiple production apps</span></div>
         <div class="strength-item"><div class="strength-icon">⚙️</div><span>Strong <strong>system design</strong> skills — scalable mobile architectures, offline-first strategies, caching layers, and efficient data pipelines</span></div>
         <div class="strength-item"><div class="strength-icon">🔀</div><span>Expert in <strong>Kotlin Multiplatform (KMP)</strong>, enabling shared code between Android & iOS — up to <strong>~70% code reuse</strong> achieved across projects</span></div>
-        <div class="strength-item"><div class="strength-icon ai-icon">🤖</div><span><strong>AI-native developer</strong> — daily use of Cursor, GitHub Copilot & Claude API for rapid prototyping; collaborated with Alignerr, Outlier & Opentrain.ai on LLM evaluation</span></div>
+        <div class="strength-item"><div class="strength-icon ai-icon">🤖</div><span><strong>AI-native developer</strong> — daily use of Cursor, GitHub Copilot & Claude API for rapid prototyping; collaborated with Alignerr, Outlier, Opentrain.ai & Mercor on LLM evaluation</span></div>
         <div class="strength-item"><div class="strength-icon">🌍</div><span>Extensive <strong>full-remote collaboration</strong> across international teams; strong entrepreneurial background</span></div>
       </div>
     </div>
@@ -684,13 +684,14 @@
 
       <div class="exp-item">
         <div class="exp-header">
-          <div><div class="exp-company">AI / LLM Consultant 🤖</div><div class="exp-role">Alignerr · Outlier · Opentrain.ai · Freelance</div></div>
+          <div><div class="exp-company">AI / LLM Consultant 🤖</div><div class="exp-role">Alignerr · Outlier · Opentrain.ai · Mercor · Freelance</div></div>
           <span class="exp-date">2024–Present · Remote</span>
         </div>
-        <div class="exp-stack"><strong>Stack:</strong> LLM Evaluation · Prompt Engineering · Code Review · Kotlin · Cursor · GitHub Copilot</div>
+        <div class="exp-stack"><strong>Stack:</strong> RLHF · LLM Evaluation · Prompt Engineering · Code Review · Kotlin · Python · Cursor · GitHub Copilot</div>
         <ul class="exp-bullets">
-          <li>Collaborated with <strong>Alignerr, Outlier, and Opentrain.ai</strong> — evaluating AI-generated Kotlin/Android code quality and providing expert technical feedback to improve LLM training datasets</li>
-          <li>Applied <strong>AI-assisted coding</strong> (Cursor, GitHub Copilot) daily, building strong intuition for code generation quality, edge cases, and prompt engineering best practices</li>
+          <li>Contributed to <strong>RLHF workflows</strong> for LLM training — ranking and comparing model outputs, writing structured preference rationales, and providing human feedback across <strong>factuality, reasoning, instruction-following, clarity, safety, and helpfulness</strong></li>
+          <li>Evaluated <strong>AI-generated Kotlin/Android code</strong> for technical correctness, logic quality, and alignment with user intent; detected edge cases and maintained high quality standards in fast-paced annotation environments, leveraging <strong>12+ years of software engineering expertise</strong></li>
+          <li>Collaborated with leading AI labs — <strong>Alignerr, Outlier, Opentrain.ai, and Mercor</strong> — contributing to prompt engineering best practices and data curation for LLM improvement across both general and code-focused tasks</li>
         </ul>
       </div>
 
@@ -744,7 +745,7 @@
     </div>
     <div class="sidebar-section" style="padding-top:0;">
       <div class="sidebar-title">Technical Skills</div>
-      <div class="skill-category"><div class="skill-category-title">Languages & Platforms</div><div class="skill-tags"><span class="skill-tag highlight">Kotlin</span><span class="skill-tag highlight">KMP</span><span class="skill-tag">Java</span><span class="skill-tag">Android SDK</span></div></div>
+      <div class="skill-category"><div class="skill-category-title">Languages & Platforms</div><div class="skill-tags"><span class="skill-tag highlight">Kotlin</span><span class="skill-tag highlight">KMP</span><span class="skill-tag">Java</span><span class="skill-tag">Python</span><span class="skill-tag">SQL</span><span class="skill-tag">JavaScript</span><span class="skill-tag">PHP</span><span class="skill-tag">Android SDK</span></div></div>
       <div class="skill-category"><div class="skill-category-title">System Design & Architecture</div><div class="skill-tags"><span class="skill-tag gold">System Design</span><span class="skill-tag highlight">Clean Architecture</span><span class="skill-tag highlight">MVVM</span><span class="skill-tag">MVI</span><span class="skill-tag">SOLID</span><span class="skill-tag">Multi-module</span><span class="skill-tag">Offline-First</span><span class="skill-tag">Scalable Design</span></div></div>
       <div class="skill-category"><div class="skill-category-title">UI & Frameworks</div><div class="skill-tags"><span class="skill-tag highlight">Jetpack Compose</span><span class="skill-tag">Material Design 3</span><span class="skill-tag">Navigation</span><span class="skill-tag">Room</span><span class="skill-tag">WorkManager</span><span class="skill-tag">Custom Views</span><span class="skill-tag">Accessibility</span></div></div>
       <div class="skill-category"><div class="skill-category-title">Async & Reactive</div><div class="skill-tags"><span class="skill-tag highlight">Coroutines</span><span class="skill-tag highlight">Flow / StateFlow</span><span class="skill-tag">LiveData</span><span class="skill-tag">RxJava</span><span class="skill-tag">Channels</span></div></div>
@@ -885,7 +886,7 @@
     <div class="main-header">
       <div class="main-title">Profil Professionnel</div>
       <div class="main-subtitle">+12 Ans · Consultant Freelance · Full Remote</div>
-      <p class="summary-text">Ingénieur Android Senior <strong>AI-native</strong> avec <strong>plus de 12 ans</strong> d'expérience dans la conception d'applications mobiles performantes en <strong>fintech, e-commerce, navigation et éducation</strong>. Spécialisé en <strong>Kotlin</strong>, <strong>Jetpack Compose</strong> et <strong>KMP</strong>. Intègre au quotidien des <strong>outils IA</strong> (Cursor, GitHub Copilot, Claude API) pour prototyper rapidement et livrer plus vite — un véritable avantage concurrentiel. Concepteur de l'app fintech <strong>Kard</strong> (<strong>100K+ téléchargements</strong>). A collaboré avec <strong>Alignerr, Outlier et Opentrain.ai</strong> sur l'évaluation de LLMs.</p>
+      <p class="summary-text">Ingénieur Android Senior <strong>AI-native</strong> avec <strong>plus de 12 ans</strong> d'expérience dans la conception d'applications mobiles performantes en <strong>fintech, e-commerce, navigation et éducation</strong>. Spécialisé en <strong>Kotlin</strong>, <strong>Jetpack Compose</strong> et <strong>KMP</strong>. Intègre au quotidien des <strong>outils IA</strong> (Cursor, GitHub Copilot, Claude API) pour prototyper rapidement et livrer plus vite — un véritable avantage concurrentiel. Concepteur de l'app fintech <strong>Kard</strong> (<strong>100K+ téléchargements</strong>). A collaboré avec <strong>Alignerr, Outlier, Opentrain.ai et Mercor</strong> sur l'évaluation de LLMs.</p>
       <div class="highlight-chips">
         <span class="highlight-chip"><span class="chip-icon">🏆</span> 100K+ Téléchargements</span>
         <span class="highlight-chip"><span class="chip-icon">🏗️</span> System Design</span>
@@ -903,7 +904,7 @@
         <div class="strength-item"><div class="strength-icon">🏗️</div><span>Track record prouvé dans la <strong>conception d'apps from scratch</strong>, dont Kard (<strong>100K+ téléchargements, 4.5★</strong>) et multiples apps en production</span></div>
         <div class="strength-item"><div class="strength-icon">⚙️</div><span>Solides compétences en <strong>system design</strong> — architectures mobiles scalables, stratégies offline-first, couches de cache et pipelines de données</span></div>
         <div class="strength-item"><div class="strength-icon">🔀</div><span>Expert en <strong>Kotlin Multiplatform (KMP)</strong>, partage de code Android/iOS — jusqu'à <strong>~70% de réutilisation</strong> de code atteint sur les projets</span></div>
-        <div class="strength-item"><div class="strength-icon ai-icon">🤖</div><span><strong>Développeur AI-native</strong> — utilisation quotidienne de Cursor, GitHub Copilot & Claude API pour le prototypage rapide ; collaboration avec Alignerr, Outlier & Opentrain.ai sur l'évaluation LLM</span></div>
+        <div class="strength-item"><div class="strength-icon ai-icon">🤖</div><span><strong>Développeur AI-native</strong> — utilisation quotidienne de Cursor, GitHub Copilot & Claude API pour le prototypage rapide ; collaboration avec Alignerr, Outlier, Opentrain.ai & Mercor sur l'évaluation LLM</span></div>
         <div class="strength-item"><div class="strength-icon">🌍</div><span>Vaste expérience de <strong>collaboration full-remote</strong> avec des équipes internationales ; profil entrepreneurial</span></div>
       </div>
     </div>
@@ -913,13 +914,14 @@
 
       <div class="exp-item">
         <div class="exp-header">
-          <div><div class="exp-company">Consultant IA / LLM 🤖</div><div class="exp-role">Alignerr · Outlier · Opentrain.ai · Freelance</div></div>
+          <div><div class="exp-company">Consultant IA / LLM 🤖</div><div class="exp-role">Alignerr · Outlier · Opentrain.ai · Mercor · Freelance</div></div>
           <span class="exp-date">2024–Présent · Remote</span>
         </div>
-        <div class="exp-stack"><strong>Stack :</strong> Évaluation LLM · Prompt Engineering · Revue de Code · Kotlin · Cursor · GitHub Copilot</div>
+        <div class="exp-stack"><strong>Stack :</strong> RLHF · Évaluation LLM · Prompt Engineering · Revue de Code · Kotlin · Python · Cursor · GitHub Copilot</div>
         <ul class="exp-bullets">
-          <li>Collaboration avec <strong>Alignerr, Outlier et Opentrain.ai</strong> — évaluation de la qualité du code Kotlin/Android généré par IA et retour technique expert pour améliorer les datasets d'entraînement LLM</li>
-          <li>Utilisation quotidienne du <strong>coding assisté par IA</strong> (Cursor, GitHub Copilot), développant une intuition forte pour la qualité de la génération de code et le prompt engineering</li>
+          <li>Participation à des <strong>workflows RLHF</strong> pour l'entraînement de LLMs — classement et comparaison de réponses, rédaction de rationales de préférence structurées et feedback humain couvrant la <strong>factualité, le raisonnement, le suivi d'instructions, la clarté, la sécurité et l'utilité</strong></li>
+          <li>Évaluation de code <strong>Kotlin/Android généré par IA</strong> : correction technique, qualité logique et alignement avec l'intention utilisateur ; détection des cas limites dans des environnements d'annotation rythmés, en s'appuyant sur <strong>12+ ans d'expérience en ingénierie logicielle</strong></li>
+          <li>Collaboration avec <strong>Alignerr, Outlier, Opentrain.ai et Mercor</strong> — contribution aux bonnes pratiques de prompt engineering et à la curation de données pour l'amélioration des LLMs, sur des tâches générales et de génération de code</li>
         </ul>
       </div>
 
@@ -973,7 +975,7 @@
     </div>
     <div class="sidebar-section" style="padding-top:0;">
       <div class="sidebar-title">Compétences Techniques</div>
-      <div class="skill-category"><div class="skill-category-title">Langages & Plateformes</div><div class="skill-tags"><span class="skill-tag highlight">Kotlin</span><span class="skill-tag highlight">KMP</span><span class="skill-tag">Java</span><span class="skill-tag">Android SDK</span></div></div>
+      <div class="skill-category"><div class="skill-category-title">Langages & Plateformes</div><div class="skill-tags"><span class="skill-tag highlight">Kotlin</span><span class="skill-tag highlight">KMP</span><span class="skill-tag">Java</span><span class="skill-tag">Python</span><span class="skill-tag">SQL</span><span class="skill-tag">JavaScript</span><span class="skill-tag">PHP</span><span class="skill-tag">Android SDK</span></div></div>
       <div class="skill-category"><div class="skill-category-title">System Design & Architecture</div><div class="skill-tags"><span class="skill-tag gold">System Design</span><span class="skill-tag highlight">Clean Architecture</span><span class="skill-tag highlight">MVVM</span><span class="skill-tag">MVI</span><span class="skill-tag">SOLID</span><span class="skill-tag">Multi-module</span><span class="skill-tag">Offline-First</span><span class="skill-tag">Conception Scalable</span></div></div>
       <div class="skill-category"><div class="skill-category-title">UI & Frameworks</div><div class="skill-tags"><span class="skill-tag highlight">Jetpack Compose</span><span class="skill-tag">Material Design 3</span><span class="skill-tag">Navigation</span><span class="skill-tag">Room</span><span class="skill-tag">WorkManager</span><span class="skill-tag">Custom Views</span><span class="skill-tag">Accessibilité</span></div></div>
       <div class="skill-category"><div class="skill-category-title">Asynchrone & Réactif</div><div class="skill-tags"><span class="skill-tag highlight">Coroutines</span><span class="skill-tag highlight">Flow / StateFlow</span><span class="skill-tag">LiveData</span><span class="skill-tag">RxJava</span><span class="skill-tag">Channels</span></div></div>
@@ -1114,7 +1116,7 @@
     <div class="main-header">
       <div class="main-title">Perfil Profesional</div>
       <div class="main-subtitle">+12 Años · Consultor Freelance · Full Remote</div>
-      <p class="summary-text">Ingeniero Android Senior <strong>AI-native</strong> con <strong>más de 12 años</strong> diseñando aplicaciones móviles de alto rendimiento en <strong>fintech, e-commerce, navegación y educación</strong>. Especializado en <strong>Kotlin</strong>, <strong>Jetpack Compose</strong> y <strong>KMP</strong>. Integra <strong>herramientas de IA</strong> (Cursor, GitHub Copilot, Claude API) en su flujo diario para prototipar rápido y entregar más — una ventaja competitiva real. Arquitecto de la app fintech <strong>Kard</strong> (<strong>100K+ descargas</strong>). Colaboró con <strong>Alignerr, Outlier y Opentrain.ai</strong> en evaluación de LLMs.</p>
+      <p class="summary-text">Ingeniero Android Senior <strong>AI-native</strong> con <strong>más de 12 años</strong> diseñando aplicaciones móviles de alto rendimiento en <strong>fintech, e-commerce, navegación y educación</strong>. Especializado en <strong>Kotlin</strong>, <strong>Jetpack Compose</strong> y <strong>KMP</strong>. Integra <strong>herramientas de IA</strong> (Cursor, GitHub Copilot, Claude API) en su flujo diario para prototipar rápido y entregar más — una ventaja competitiva real. Arquitecto de la app fintech <strong>Kard</strong> (<strong>100K+ descargas</strong>). Colaboró con <strong>Alignerr, Outlier, Opentrain.ai y Mercor</strong> en evaluación de LLMs.</p>
       <div class="highlight-chips">
         <span class="highlight-chip"><span class="chip-icon">🏆</span> 100K+ Descargas</span>
         <span class="highlight-chip"><span class="chip-icon">🏗️</span> System Design</span>
@@ -1132,7 +1134,7 @@
         <div class="strength-item"><div class="strength-icon">🏗️</div><span>Historial probado en la <strong>arquitectura de apps desde cero</strong>, incluyendo Kard (<strong>100K+ descargas, 4.5★</strong>) y múltiples apps en producción</span></div>
         <div class="strength-item"><div class="strength-icon">⚙️</div><span>Sólidas competencias en <strong>system design</strong> — arquitecturas móviles escalables, estrategias offline-first, capas de caché y pipelines de datos</span></div>
         <div class="strength-item"><div class="strength-icon">🔀</div><span>Experto en <strong>Kotlin Multiplatform (KMP)</strong>, código compartido Android/iOS — hasta <strong>~70% de reutilización</strong> de código alcanzado en proyectos</span></div>
-        <div class="strength-item"><div class="strength-icon ai-icon">🤖</div><span><strong>Desarrollador AI-native</strong> — uso diario de Cursor, GitHub Copilot & Claude API para prototipado rápido; colaboración con Alignerr, Outlier & Opentrain.ai en evaluación LLM</span></div>
+        <div class="strength-item"><div class="strength-icon ai-icon">🤖</div><span><strong>Desarrollador AI-native</strong> — uso diario de Cursor, GitHub Copilot & Claude API para prototipado rápido; colaboración con Alignerr, Outlier, Opentrain.ai & Mercor en evaluación LLM</span></div>
         <div class="strength-item"><div class="strength-icon">🌍</div><span>Amplia experiencia en <strong>colaboración full-remote</strong> con equipos internacionales; perfil emprendedor</span></div>
       </div>
     </div>
@@ -1142,13 +1144,14 @@
 
       <div class="exp-item">
         <div class="exp-header">
-          <div><div class="exp-company">Consultor IA / LLM 🤖</div><div class="exp-role">Alignerr · Outlier · Opentrain.ai · Freelance</div></div>
+          <div><div class="exp-company">Consultor IA / LLM 🤖</div><div class="exp-role">Alignerr · Outlier · Opentrain.ai · Mercor · Freelance</div></div>
           <span class="exp-date">2024–Presente · Remote</span>
         </div>
-        <div class="exp-stack"><strong>Stack:</strong> Evaluación LLM · Prompt Engineering · Revisión de Código · Kotlin · Cursor · GitHub Copilot</div>
+        <div class="exp-stack"><strong>Stack:</strong> RLHF · Evaluación LLM · Prompt Engineering · Revisión de Código · Kotlin · Python · Cursor · GitHub Copilot</div>
         <ul class="exp-bullets">
-          <li>Colaboración con <strong>Alignerr, Outlier y Opentrain.ai</strong> — evaluando la calidad del código Kotlin/Android generado por IA y aportando retroalimentación técnica experta para mejorar los datasets de entrenamiento LLM</li>
-          <li>Uso diario del <strong>coding asistido por IA</strong> (Cursor, GitHub Copilot), desarrollando una sólida intuición para la calidad de generación de código y las mejores prácticas de prompt engineering</li>
+          <li>Participación en <strong>flujos de trabajo RLHF</strong> para el entrenamiento de LLMs — clasificación y comparación de respuestas, redacción de rationales de preferencia estructurados y feedback humano en dimensiones como <strong>factualidad, razonamiento, seguimiento de instrucciones, claridad, seguridad y utilidad</strong></li>
+          <li>Evaluación de código <strong>Kotlin/Android generado por IA</strong>: corrección técnica, calidad lógica y alineación con la intención del usuario; detección de casos límite en entornos de anotación de ritmo rápido, aprovechando <strong>12+ años de experiencia en ingeniería de software</strong></li>
+          <li>Colaboración con <strong>Alignerr, Outlier, Opentrain.ai y Mercor</strong> — contribución a las mejores prácticas de prompt engineering y curación de datos para la mejora de LLMs, en tareas generales y de generación de código</li>
         </ul>
       </div>
 
@@ -1202,7 +1205,7 @@
     </div>
     <div class="sidebar-section" style="padding-top:0;">
       <div class="sidebar-title">Competencias Técnicas</div>
-      <div class="skill-category"><div class="skill-category-title">Lenguajes & Plataformas</div><div class="skill-tags"><span class="skill-tag highlight">Kotlin</span><span class="skill-tag highlight">KMP</span><span class="skill-tag">Java</span><span class="skill-tag">Android SDK</span></div></div>
+      <div class="skill-category"><div class="skill-category-title">Lenguajes & Plataformas</div><div class="skill-tags"><span class="skill-tag highlight">Kotlin</span><span class="skill-tag highlight">KMP</span><span class="skill-tag">Java</span><span class="skill-tag">Python</span><span class="skill-tag">SQL</span><span class="skill-tag">JavaScript</span><span class="skill-tag">PHP</span><span class="skill-tag">Android SDK</span></div></div>
       <div class="skill-category"><div class="skill-category-title">System Design & Arquitectura</div><div class="skill-tags"><span class="skill-tag gold">System Design</span><span class="skill-tag highlight">Clean Architecture</span><span class="skill-tag highlight">MVVM</span><span class="skill-tag">MVI</span><span class="skill-tag">SOLID</span><span class="skill-tag">Multi-módulo</span><span class="skill-tag">Offline-First</span><span class="skill-tag">Diseño Escalable</span></div></div>
       <div class="skill-category"><div class="skill-category-title">UI & Frameworks</div><div class="skill-tags"><span class="skill-tag highlight">Jetpack Compose</span><span class="skill-tag">Material Design 3</span><span class="skill-tag">Navigation</span><span class="skill-tag">Room</span><span class="skill-tag">WorkManager</span><span class="skill-tag">Custom Views</span><span class="skill-tag">Accesibilidad</span></div></div>
       <div class="skill-category"><div class="skill-category-title">Asíncrono & Reactivo</div><div class="skill-tags"><span class="skill-tag highlight">Coroutines</span><span class="skill-tag highlight">Flow / StateFlow</span><span class="skill-tag">LiveData</span><span class="skill-tag">RxJava</span><span class="skill-tag">Channels</span></div></div>
